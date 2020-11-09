@@ -23,7 +23,8 @@ function gotResults(error, results) {
 // }
 
 function setup() {
-  createCanvas(640, 550);
+  var canvas = createCanvas(640, 550);
+  canvas.parent('sketch-holder');
   video = createCapture(VIDEO);
   video.hide();
   background(0);
