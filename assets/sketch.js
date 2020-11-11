@@ -41,3 +41,7 @@ function draw() {
   text(makers,140, height-70);
   text(label, 10, height - 20);
 }
+
+window.onresize = function(){
+canvas.size(200,125);
+}
