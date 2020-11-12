@@ -28,7 +28,7 @@ function setup() {
   var canvas = createCanvas(500, 400);
   canvas.parent('sketch-holder');
   video = createCapture(VIDEO);
-  video.size(300, 200);
+  video.size(500, 350);
   video.hide();
   background(0);
   mobilenet = ml5.imageClassifier('MobileNet', video, modelReady);
@@ -36,7 +36,7 @@ function setup() {
 
 function draw() {
   background(255);
-  image(video, 0, 0);
+  image(video, 0, 0,500,350);
   fill(0);
   textSize(10);
   text(makers,80, height-20);
