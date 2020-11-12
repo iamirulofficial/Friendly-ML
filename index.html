@@ -5,68 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/test.css" type="text/css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/pop-upstyle.css" type="text/css">
-
-
-<script type="text/javascript" src="assets/pop-up.js"></script>
+    <script type="text/javascript" src="assets/pop-up.js"></script>
    <title>Friendly-ML</title>
-   <style>
-       .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-.button4 {
-  background-color: white;
-  color: black;
-  border: 2px solid #e7e7e7;
-}
-
-.button4:hover {background-color: #e7e7e7;}
-   </style>
 </head>
 <body>
     <div class="container"> 
         <!-- Top Navigation -->
-        <div class="cctop clearfix"> <span class="right"><a href="#"><i class="fa fa-github" style="font-size: 30px;"></i></a></div>
+        <div class="cctop clearfix"> <span class="right"><a href="https://github.com/iamirulofficial/"><i class="fa fa-github" style="font-size: 30px;"></i></a></div>
         <div class="wrapper">
           <div class="cctabs">
             <input checked id="one" name="tabs" type="radio">
-            <label for="one"><i class="fa fa-pencil-square-o"></i> Content</label>
-            <input id="two" name="tabs" type="radio" value="Two">
-            <label for="two"><i class="fa fa-magic"></i> Services</label>
-            <input id="three" name="tabs" type="radio">
-            <!--<label for="three"><i class="fa fa-plus-square"></i> Forms</label>-->
-            <input id="four" name="tabs" type="radio">
-            <label for="four"><i class="fa fa-envelope"></i> Contact</label>
+            <label for="one"><i class="fa fa-cubes"></i>Model</label>
+            <input checked id="two" name="tabs" type="radio">
+            <label for="two"><i class="fa fa-book"></i> References</label>
             <div class="panels">
               <div class="panel">
                 <div class="cc-mt-20"></div>
                 <div class="grid cc-text-center">
-
+                  <h2>Live Web-Cam Object Detection Model</h2>
+                  <p>Used the MobileNet Classification Model to Predict Object</p>
                     <br>
                     <br>
+                    <p><i class="fa fa-warning" style="font-size:1em;color:red"></i> Please Allow the browser to use the Web-Cam</p>
                     <br>
-                    <center><button class="button button4" onclick="javascript:popmeup('cam.html');">Click to Open Web-cam</button></center>
+                    <center><button class="button button4" onclick="javascript:popmeup('cam.html');"><i class="fa fa-camera"></i>Open Web-cam</button></center>
+                    <br>
+                    <p><i class="fa fa-info-circle"></i> Open in Desktop for better Performance & Interface</p>
                 </div>
               </div>
               <div class="panel">
-                <div class="headline">
-                  </div>
-              <div class="panel">
+                <div class="cc-mt-20"></div>
+                <div class="grid cc-text-center">
+                    <p><a href="https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md">MobileNet Model</a></p>
+                    </div>
+                </div>
               </div>
-              <div class="panel">
-                
-              </div>
-            </div>
           </div>
         </div>
 
