@@ -36,9 +36,9 @@ function setup() {
 
 function draw() {
   background(255);
-  image(video, 0, 0,450,350);
+  image(video, 0, 0);
   fill(0);
-  textSize(20);
+  textSize(15);
   text(makers,180, height-20);
   text(label, 120, height - 8);
 }
