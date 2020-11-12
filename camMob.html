@@ -15,7 +15,31 @@
         <script src= 
     "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> 
         </script> 
-	<script src="assets/sketchMob.js"></script>
+    <script src="assets/sketchMob.js"></script>
+    <style>
+        html,
+body {
+  height: 100%;
+}
+
+#sketch-holder {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+.pop-close {
+  position: absolute;
+  top: 9px;
+  left: 7px;
+  z-index: 30;
+}
+
+    </style>
 </head>
 <body>
     <center><p style="margin-top:10px; font: 1.5em sans-serif;"><i class="fa fa-pause" style="font-size:1em;color:yellowgreen"></i>  Wait for Some time to load the model! <br><i class="fa fa-warning" style="font-size:1em;color:red"></i> Do not switch browser!</p></center>

@@ -39,6 +39,6 @@ function draw() {
   image(video,0,0,450,350);
   fill(0);
   textSize(15);
-  text(makers,180, height-20);
+  text(makers,140, height-25);
   text(label, 120, height - 8);
 }
