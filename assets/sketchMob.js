@@ -25,7 +25,7 @@ function gotResults(error, results) {
 // }
 
 function setup() {
-  var canvas = createCanvas(300, 260);
+  var canvas = createCanvas(500, 400);
   canvas.parent('sketch-holder');
   video = createCapture(VIDEO);
   video.size(300, 200);
