@@ -25,7 +25,7 @@ function gotResults(error, results) {
 // }
 
 function setup() {
-  var canvas = createCanvas(500, 400);
+  var canvas = createCanvas(450, 400);
   canvas.parent('sketch-holder');
   video = createCapture(VIDEO);
   video.size(500, 350);
@@ -36,9 +36,9 @@ function setup() {
 
 function draw() {
   background(255);
-  image(video, 0, 0,500,350);
+  image(video, 0, 0,450,350);
   fill(0);
   textSize(10);
-  text(makers,80, height-20);
-  text(label, 10, height - 8);
+  text(makers,180, height-20);
+  text(label, 120, height - 8);
 }
