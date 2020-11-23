@@ -1,0 +1,29 @@
+{
+  "name": "friendly-ml",
+  "version": "1.0.0",
+  "description": "Friendly ML in web, Image Classification and Object Detection",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamirulofficial/Friendly-ML.git"
+  },
+  "keywords": [
+    "ML",
+    "web",
+    "classification",
+    "object-detection"
+  ],
+  "author": "iamirulofficial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamirulofficial/Friendly-ML/issues"
+  },
+  "homepage": "https://github.com/iamirulofficial/Friendly-ML#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
