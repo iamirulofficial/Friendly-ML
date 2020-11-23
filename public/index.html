@@ -15,7 +15,9 @@
         <div class="wrapper">
           <div class="cctabs">
             <input checked id="one" name="tabs" type="radio">
-            <label for="one"><i class="fa fa-cubes"></i>Model</label>
+            <label for="one"><i class="fa fa-cubes"></i>Classification Model</label>
+            <input checked id="two" name="tabs" type="radio">
+            <label for="two"><i class="fa fa-cubes"></i>Object Detection Model</label>
             <div class="panels">
               <div class="panel">
                 <div class="cc-mt-20"></div>
@@ -27,6 +29,23 @@
                     <p><i class="fa fa-warning" style="font-size:1em;color:red"></i> Please Allow the browser to use the Web-Cam</p>
                     <br>
                     <center><button class="button button4" onclick="javascript:popmeup('cam.html');"><i class="fa fa-camera"></i>Open Web-cam</button></center>
+                    <br>
+                    <p><i class="fa fa-info-circle"></i> Open in Desktop for better Performance & Interface, Put Objects near to Camera</p>
+                </div>
+              </div>
+
+
+
+              <div class="panel">
+                <div class="cc-mt-20"></div>
+                <div class="grid cc-text-center">
+                  <h2>Live Web-Cam Object Detection Model</h2>
+                 <!--<p>Used the <a href="https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md">MobileNet Classification Model</a> to Predict Object</p>
+                 --><br>
+                    <br>
+                    <p><i class="fa fa-warning" style="font-size:1em;color:red"></i> Please Allow the browser to use the Web-Cam</p>
+                    <br>
+                    <center><button class="button button4" onclick="javascript:popmeup('object-det.html');"><i class="fa fa-camera"></i>Open Web-cam</button></center>
                     <br>
                     <p><i class="fa fa-info-circle"></i> Open in Desktop for better Performance & Interface, Put Objects near to Camera</p>
                 </div>
